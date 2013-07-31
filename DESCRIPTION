@@ -7,5 +7,7 @@ Author: Ralph Scherer
 Maintainer: Ralph Scherer <scherer.ralph@mh-hannover.de>
 Description: Computes confidence intervals for single proportions and differences of dependent and independent proportions
 License: GPL
+URL: https://github.com/shearer/PropCIs
+BugReports: https://github.com/shearer/PropCIs/issues
 LazyLoad: yes
 Packaged: 2010-02-23 18:53:27 UTC; ralph
