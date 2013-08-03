@@ -1,24 +1,30 @@
-#########################################
-#					#
-# 		Release Notes		#
-# 	  				#
-#########################################
+########################################
+#											#
+# 		Release Notes						#
+#											#
+########################################
 
+       ##########################
+	## Changes in PropCIs 0.2-2 ##
+	##########################
 
+	# PropCIs is now on github. 
 
-
+        ##########################
 	## Changes in PropCIs 0.2-0 ##
-	##############################
+	##########################
 
-	# corrected an issue in wald2ci. Thanks to Christopher Bilder		
-	  	
+	# corrected an issue in wald2ci. Thanks to Christopher Bilder
+		
+	########################## 	
 	## Changes in PropCIs 0.1-8 ##
-	##############################
+	##########################
 
 	# added htest output to various functions
 
+        ##########################
 	## Changes in PropCIs 0.1-7 ##
-	##############################
+	##########################
 
 	# added correction term * nxy / (nxy - 1) to subfunction z2stat.R in diffscoreci.R
 	  and *(nx+ny-1)/(nx+ny) to subfunction limit.R in orscoreci.R.
