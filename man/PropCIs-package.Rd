@@ -1,9 +1,9 @@
 \name{PropCIs-package}
-\Rdversion{0.2-0}
+\Rdversion{0.2-2}
 \alias{PropCIs-package}
 \docType{package}
 \title{
-  Various confidence interval methods for proportions
+  Confidence intervals for single, paired and independent proportions
 }
 \description{
 Computes confidence intervals for single proportions as well as for
@@ -17,8 +17,8 @@ website \url{http://www.stat.ufl.edu/~aa/cda/cda.html}.
 \tabular{ll}{
 Package: \tab PropCIs\cr
 Type: \tab Package\cr
-Version: \tab 0.2-0\cr
-Date: \tab 2013-01-22\cr
+Version: \tab 0.2-2\cr
+Date: \tab 2013-08-03\cr
 License: \tab GPL=2\cr
 LazyLoad: \tab yes\cr
 }

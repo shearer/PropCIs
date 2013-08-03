@@ -1,11 +1,11 @@
 Package: PropCIs
 Type: Package
 Title: Various confidence interval methods for proportions
-Version: 0.2-0
-Date: 2013-01-22
+Version: 0.2-2
+Date: 2013-08-03
 Author: Ralph Scherer
 Maintainer: Ralph Scherer <scherer.ralph@mh-hannover.de>
-Description: Computes confidence intervals for single proportions and differences of dependent and independent proportions
+Description: Computes two-sample confidence intervals for single, paired and independent proportions
 License: GPL
 URL: https://github.com/shearer/PropCIs
 BugReports: https://github.com/shearer/PropCIs/issues
