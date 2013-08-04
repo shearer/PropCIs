@@ -12,5 +12,5 @@ To install the development version of the PropCIs package, it is easiest to use 
 
     install.packages("devtools")  # if needed..
     library(devtools)
-    install_github("prevalence", "brechtdv")
-    library(prevalence)
+    install_github("PropCIs", "shearer")
+    library(PropCIs)
