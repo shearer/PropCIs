@@ -6,3 +6,9 @@
 
 # Ignore backup files
 *~
+.Rproj.user
+*.Rbuildignore
+*.Rproj
+*.Rcheck
+*.tar.gz
+

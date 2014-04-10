@@ -17,8 +17,8 @@ website \url{http://www.stat.ufl.edu/~aa/cda/cda.html}.
 \tabular{ll}{
 Package: \tab PropCIs\cr
 Type: \tab Package\cr
-Version: \tab 0.2-4\cr
-Date: \tab 2013-08-04\cr
+Version: \tab 0.2-5\cr
+Date: \tab 2014-04-10\cr
 License: \tab GPL=2\cr
 LazyLoad: \tab yes\cr
 }
@@ -26,7 +26,7 @@ LazyLoad: \tab yes\cr
 \author{
 Ralph Scherer
 
-Maintainer: Ralph Scherer <scherer.ralph@mh-hannover.de>
+Maintainer: Ralph Scherer <shearer.ra76@gmail.com>
 }
 \references{
   Agresti, A., Coull, B. (1998) Approximate is better than exact for
