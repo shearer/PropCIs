@@ -12,3 +12,6 @@
 *.Rcheck
 *.tar.gz
 
+*.html
+
+
