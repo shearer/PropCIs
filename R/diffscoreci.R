@@ -1,3 +1,5 @@
+## Method of Mee 1984 with Miettinen and Nurminen modification nxy / (nxy - 1), see Newcombe 1998
+
 diffscoreci <-
 function(x1,n1,x2,n2,conf.level){
    px = x1/n1
