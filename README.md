@@ -2,7 +2,7 @@
 
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/PropCIs)](http://cran.r-project.org/package=PropCIs/) ![downloads](http://cranlogs.r-pkg.org/badges/grand-total/PropCIs)
 
-## resources
+## Resources
 The confidence intervals are mostly described in Alan Agresti's [CDA book](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470463635.html).  
 How to calculate the intervals in other software is described at the [webpage for CDA](http://www.stat.ufl.edu/~aa/cda/cda.html).
 
