@@ -1,8 +1,6 @@
 # [PropCIs](https://github.com/shearer/PropCIs)
 
-[![Travis-CI Build Status](https://travis-ci.org/shearer/PropCIs.svg?branch=master)](https://travis-ci.org/shearer/PropCIs)  
-
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/PropCIs)](http://cran.r-project.org/package=PropCIs/) 
+[![Travis-CI Build Status](https://travis-ci.org/shearer/PropCIs.svg?branch=master)](https://travis-ci.org/shearer/PropCIs)  [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/PropCIs)](http://cran.r-project.org/package=PropCIs/) 
 ![downloads](http://cranlogs.r-pkg.org/badges/grand-total/PropCIs)
 
 ## Resources
