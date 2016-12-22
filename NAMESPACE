@@ -1,1 +1,3 @@
+importFrom("stats", "pbinom", "qbeta", "qbinom", "qchisq", "qf",
+             "qnorm")
 exportPattern("^[[:alpha:]]+")
