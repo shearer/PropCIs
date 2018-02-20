@@ -7,7 +7,7 @@
   Approximate Bayesian tail confidence interval for an odds ratio using simulation method
   }
 \usage{
-orci.bayes(x1,n1,x2,n2,a,b,c,d,conf.level)
+orci.bayes(x1,n1,x2,n2,a,b,c,d,conf.level, nsim)
 }
 \arguments{
   \item{x1}{Binomial variate group 1
@@ -28,7 +28,7 @@ orci.bayes(x1,n1,x2,n2,a,b,c,d,conf.level)
 }
   \item{conf.level}{confidence level
 }
-  \item(nsim){number of simulations with default 10M}
+  \item{nsim}{number of simulations with default 10M
 }
 }
 \value{
