@@ -1,5 +1,5 @@
 \name{PropCIs-package}
-\Rdversion{0.2-4}
+\Rdversion{0.3-0}
 \alias{PropCIs-package}
 \docType{package}
 \title{
@@ -17,8 +17,8 @@ website \url{http://www.stat.ufl.edu/~aa/cda/cda.html}.
 \tabular{ll}{
 Package: \tab PropCIs\cr
 Type: \tab Package\cr
-Version: \tab 0.2-5\cr
-Date: \tab 2014-04-10\cr
+Version: \tab 0.3-0\cr
+Date: \tab 2018-02-20\cr
 License: \tab GPL=2\cr
 LazyLoad: \tab yes\cr
 }
