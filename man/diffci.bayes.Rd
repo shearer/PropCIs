@@ -28,6 +28,7 @@ diffci.bayes(x1,n1,x2,n2,a,b,c,d,conf.level)
 }
   \item{conf.level}{confidence level
 }
+  \item(nsim){number of simulations with default 10M}
 }
 \value{
 Confidence interval with given confidence level.
