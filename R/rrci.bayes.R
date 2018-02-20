@@ -1,6 +1,6 @@
-rrci.bayes <- function(x1,n1,x2,n2,a,b,c,d,conf.level=0.95)
+rrci.bayes <- function(x1,n1,x2,n2,a,b,c,d,conf.level=0.95, nsim = 10000000)
 {
-  risk.app<- function(a1,b1,c1,d1,conf.level,nsim=100000)
+  risk.app<- function(a1,b1,c1,d1,conf.level,nsim=nsim)
   {
     z1 <- rbeta(nsim, a1,b1)
     z2 <- rbeta(nsim, c1,d1)

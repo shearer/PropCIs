@@ -1,6 +1,6 @@
-orci.bayes <- function(x1,n1,x2,n2,a,b,c,d,conf.level=0.95)
+orci.bayes <- function(x1,n1,x2,n2,a,b,c,d,conf.level=0.95, nsim = 10000000)
 {
-  or.app<- function(a1,b1,c1,d1,conf.level,nsim=1000000)
+  or.app<- function(a1,b1,c1,d1,conf.level,nsim=nsim)
   {
     z1 <- rf(nsim, 2*a1,2*b1)
     z2 <- rf(nsim, 2*c1,2*d1)
