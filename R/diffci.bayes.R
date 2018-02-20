@@ -1,4 +1,4 @@
-diffci.bayes.sim <- function(x1,n1,x2,n2,a,b,c,d,conf.level=0.95){ 
+diffci.bayes <- function(x1,n1,x2,n2,a,b,c,d,conf.level=0.95){ 
   
   diff.app.sim <- function(a1,b1,c1,d1,conf.level,nsim=100000){ 
     z1 <- rbeta(nsim, a1,b1)

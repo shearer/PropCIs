@@ -1,5 +1,5 @@
-\name{diffci.bayes.sim}
-\alias{diffci.bayes.sim}
+\name{diffci.bayes}
+\alias{diffci.bayes}
 \title{
 Bayesian confidence interval for different of independent proportions
 }
@@ -7,7 +7,7 @@ Bayesian confidence interval for different of independent proportions
   Approximate Bayesian confidence interval for different of proportions using simulation method
   }
 \usage{
-diffci.bayes.sim(x1,n1,x2,n2,a,b,c,d,conf.level)
+diffci.bayes(x1,n1,x2,n2,a,b,c,d,conf.level)
 }
 \arguments{
   \item{x1}{Binomial variate group 1
