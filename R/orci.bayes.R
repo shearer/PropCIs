@@ -40,7 +40,7 @@ orci.bayes <- function(x1,n1,x2,n2,a,b,c,d,conf.level=0.95, nsim = 10000000)
       b1 <- b + n1 - x1
       c1 <- c + x2
       d1 <- d + n2 - x2
-      start <- or.app(a1,b1,c1,d1,conf.level)
+      start <- or.app(a1,b1,c1,d1,conf.level,nsim)
       tailci <- optim(start,or.fct,a1=a1,b1=b1,c1=c1,d1=d1,
                       conf.level=conf.level,control=list(maxit=20000))$par
       if(tailci[1] < 0) tailci[1]  <- 0 }
@@ -49,7 +49,7 @@ orci.bayes <- function(x1,n1,x2,n2,a,b,c,d,conf.level=0.95, nsim = 10000000)
       b1 <- b +  x1
       c1 <- c + n2 - x2
       d1 <- d + x2
-      start <- or.app(a1,b1,c1,d1,conf.level)
+      start <- or.app(a1,b1,c1,d1,conf.level,nsim)
       tailci1 <- optim(start,or.fct,a1=a1,b1=b1,c1=c1,d1=d1,
                        conf.level=conf.level,control=list(maxit=20000))$par
       if(tailci[1] < 0) tailci[1]  <- 0

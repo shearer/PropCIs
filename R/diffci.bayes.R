@@ -37,7 +37,7 @@ diffci.bayes <- function(x1,n1,x2,n2,a,b,c,d,conf.level=0.95, nsim = 10000000){
   b1 <- b + n1 - x1
   c1 <- c + x2
   d1 <- d + n2 - x2
-  start <- diff.app.sim(a1,b1,c1,d1,conf.level)
+  start <- diff.app.sim(a1,b1,c1,d1,conf.level,nsim)
   tailci <- optim(start,diff.fct,a1=a1,b1=b1,c1=c1,d1=d1,
                   conf.level=conf.level,control=list(maxit=20000))$par
   if(tailci[1] < -1) tailci[1]  <- -1
