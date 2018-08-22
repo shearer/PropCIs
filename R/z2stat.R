@@ -14,7 +14,7 @@ function (p1x,nx,p1y,ny,dif){
         s = sqrt( (b/a/3)^2 - c/a/3)
         if(v>0){u=s}
          else{u=-s}
-        w = (3.141592654+acos(v/u^3))/3
+        w = (pi+acos(min(max(v/u^3,-1),1)))/3
         p1d = 2*u*cos(w) - b/a/3
         p2d = p1d - dif
         nxy = nx + ny
