@@ -14,6 +14,5 @@ To post feature requests or ask for help, try [the PropCIs Issue Tracker](https:
 To install the development version of the PropCIs package, it is easiest to use the [devtools](https://cran.r-project.org/web/packages/devtools/index.html) package:
 
     install.packages("devtools")  # if needed..
-    library(devtools)
-    install_github("PropCIs", "shearer")
+    devtools::install_github("shearer/PropCIs")
     library(PropCIs)
