@@ -18,7 +18,7 @@ website \url{http://www.stat.ufl.edu/~aa/cda/cda.html}.
 Package: \tab PropCIs\cr
 Type: \tab Package\cr
 Version: \tab 0.3-0\cr
-Date: \tab 2018-02-20\cr
+Date: \tab 2018-02-22\cr
 License: \tab GPL=2\cr
 LazyLoad: \tab yes\cr
 }
